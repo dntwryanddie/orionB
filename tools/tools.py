@@ -89,14 +89,9 @@ def banner():
 	               Sms bomber                            
 	""", "red")
 
-	info = " "*13+colored("[", "blue")+"Developers :"+colored("Lucky", "green")+" and "+colored("LostIk", "red")
-	info_2 = " "*13+colored("[", "blue")+"Version    :"+colored(ver, "red")
-	info_3 = " "*13+colored("[", "blue")+"Telegram   :"+colored("@orion_bomber", "cyan")+colored("   <--", "green")+"\n"
 
 	print(banner)
-	print(info)
-	print(info_2)
-	print(info_3)
+
 
 def banner_tools():
 	print(colored("[1]", "red"), colored("Начать спам", "green"))
@@ -186,12 +181,10 @@ def start_input():
 		print("")
 		print(colored("[99] Отмена", "red"))
 		print("")
-		print(colored("[2]", "red"), colored("Россия +7", "cyan"))
+		print(colored("[1]", "red"), colored("Россия +7", "cyan"))
 		print("")
 		ct = input(colored("Выберите страну: ", "green"))
-		if ct == "2":
-			break
-		elif ct == "1":
+		if ct == "1":
 			break
 		elif ct == "99":
 			return 0, 0, 0
