@@ -174,7 +174,7 @@ def number_ckeck(numb):
 
 def start_input():
 	
-	country_code_2 = {"1": "by",
+	country_code_2 = {
 					  "2": "+7"}
 	while True:
 		print("")
@@ -191,7 +191,7 @@ def start_input():
 		print("")
 		print(colored("[99] Отмена", "red"))
 		print("")
-		numb = input(colored("Введите номер без кода страны "+country_code_2+" ", "green"))
+		numb = input(colored("Введите номер без кода страны "+country_code_2 +" ", "green"))
 		if number_ckeck(numb):
 			break
 		elif numb == "99":
