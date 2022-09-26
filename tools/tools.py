@@ -173,7 +173,6 @@ def number_ckeck(numb):
 		return False
 
 def start_input():
-	country_code = {"1": "+375",
 					"2": "+7"}
 	country_code_2 = {"1": "by",
 					  "2": "ru"}
