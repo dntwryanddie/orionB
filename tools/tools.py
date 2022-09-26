@@ -173,9 +173,9 @@ def number_ckeck(numb):
 		return False
 
 def start_input():
-					"2": "+7"}
+	
 	country_code_2 = {"1": "by",
-					  "2": "ru"}
+					  "2": "+7"}
 	while True:
 		print("")
 		print(colored("[99] Отмена", "red"))
