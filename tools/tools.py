@@ -191,7 +191,7 @@ def start_input():
 		print("")
 		print(colored("[99] Отмена", "red"))
 		print("")
-		numb = input(colored("Введите номер без кода страны "+country_code[2]+" ", "green"))
+		numb = input(colored("Введите номер без кода страны "+country_code_2+" ", "green"))
 		if number_ckeck(numb):
 			break
 		elif numb == "99":
